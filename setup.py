@@ -5,14 +5,14 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="eidetic_ml",
-    version="0.0.1",
+    version="0.0.2",
     author="James L. Barker",
     author_email="vmjersey@hotmail.com",
     description="Several Classes and Functions for Machine Learning",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/vmjersey/eidetic_ml",
-    packages=setuptools.find_packages(),
+    packages=['eidetic_ml'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

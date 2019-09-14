@@ -3,7 +3,7 @@ from keras import backend as K
 
 class dice:
 
-    def dice_coef(y_true, y_pred, smooth=1e-6):
+    def dice_coef(y_true, y_pred, smooth=1):
         """ source: 
         https://analysiscenter.github.io/radio/_modules/radio/models/keras/losses.html#dice_loss
         """
